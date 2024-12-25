@@ -1,0 +1,211 @@
+/* Custom fonts */
+.pt-sans-regular {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Custom Spacings */
+
+.space {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .space {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .space {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .space {
+    padding-top: 50px;
+    padding-bottom: 220px;
+    padding-left: 150px;
+  }
+}
+
+.space-2 {
+  margin-top: 130px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .space-2 {
+    margin-top: 240px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .space-2 {
+    margin-top: 340px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .space-2 {
+    margin-top: 550px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 120px;
+    padding-bottom: 300px;
+  }
+}
+
+.space-3 {
+  margin-top: 340px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .space-3 {
+    margin-top: 540px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .space-3 {
+    margin-top: 700px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .space-3 {
+    margin-top: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* Floating images */
+.floating {
+  position: absolute;
+  top: 240px;
+  z-index: 1;
+  width: 90%;
+  left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .floating {
+    top: 320px;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .floating {
+    top: 320px;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .floating {
+    top: 440px;
+    left: 100px;
+  }
+}
+
+.floating-2 {
+  position: absolute;
+  top: 300px;
+  z-index: 1;
+  width: 90%;
+  left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .floating-2 {
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+    width: 90%;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .floating-2 {
+    position: absolute;
+    top: 560px;
+    z-index: 1;
+    width: 90%;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .floating-2 {
+    position: absolute;
+    top: 660px;
+    z-index: 1;
+    width: 90%;
+    left: 80px;
+  }
+}
+/* Horizontal Ruler */
+
+.ruler {
+  border-bottom: 1px solid #b99d64;
+}
+
+/* Input border */
+.input {
+  border: 0.5px solid rgb(143, 138, 138);
+  padding: 2px;
+}
